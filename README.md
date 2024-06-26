@@ -2,7 +2,7 @@
   API de Gerenciamento de Contatos
 </h3>
 
-## 🔬 Tecnologias
+## 🔬 Tecnologias usadas
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - <img align="left" alt="Javascript" width="26px" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" />NodeJs
