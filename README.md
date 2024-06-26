@@ -1,8 +1,7 @@
 ###  API de Gerenciamento de Contatos
 
-## Tecnologias Utilizadas
-
-# Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+Tecnologias Utilizadas
+** Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 JavaScript
 Node.js
