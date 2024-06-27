@@ -1,11 +1,14 @@
 const { Client } = require("pg");
 
 const client = new Client({
-  host: "localhost",
+  host: "bd-my-contacts.ct6ewga82bwn.sa-east-1.rds.amazonaws.com",
   port: 5432,
-  user: "root",
-  password: "root",
-  database: "mycontacts",
+  user: "postgres",
+  password: "bdmycontacts",
+  database: "bd_my_contacts",
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
 
 client.connect();
