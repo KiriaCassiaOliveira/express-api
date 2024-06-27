@@ -8,9 +8,6 @@ const app = express();
 app.use(express.json());
 
 app.use(cors)
-app.use(cors({
-  origin: 'http://my-contacts-deploy.s3-website-sa-east-1.amazonaws.com/'
-}));
 app.use(routes);
 app.use(errorHandler);
 
